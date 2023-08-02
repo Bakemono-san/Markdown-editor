@@ -1,3 +1,6 @@
-<h1 class="text-red-400">
-  Hello world
-</h1>
+<script>
+import Navbar from "./lib/Navbar.svelte";
+
+</script>
+
+<Navbar />
