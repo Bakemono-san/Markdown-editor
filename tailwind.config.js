@@ -3,9 +3,17 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{svelte,js,ts,jsx,tsx}",
-  ],  theme: {
-    extend: {},
+  ], 
+  
+  theme: {
+    extend: {
+      fontFamily:{
+        'sans': ['Roboto', 'sans-serif'],
+        'serif': ['Roboto-Slab','serif'],
+      }
+    },
   },
+  
   plugins: [],
 }
 

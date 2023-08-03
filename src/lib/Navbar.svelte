@@ -39,7 +39,7 @@
     <div class="flex items-center gap-2 sm:gap-4  p-2 sm:p-4">
       <!-- btn-delete -->
       <!-- TODO: transform into a component -->
-      <button class="p-1 rounded-full duration-300 hover:bg-gray-200" aria-label="Delete document">
+      <button class="p-1 rounded-full duration-300 hover:bg-gray-200 text-gray-400 hover:text-black" aria-label="Delete document">
         <Delete />
       </button>
       <!-- btn-save -->
