@@ -3,6 +3,7 @@
   import Show from "./icons/Show.svelte";
   import { marked } from "marked";
   import { isLight } from "./store/theme";
+  import { fade } from "svelte/transition";
 
   export let documentValue;
   $: output = marked.parse(documentValue);
@@ -36,7 +37,7 @@
 
   <section
     class="absolute inset-0 translate-x-full sm:static sm:w-full sm:translate-x-0 duration-300 flex flex-col sm:border-l dark:border-white border-gray-300"
-    class:-translate-x-0={showPreview}
+    class:translate-x-0={showPreview}
     class:sm:hidden={!showPreview}
   >
     <header
