@@ -36,8 +36,8 @@
   <!-- preview  -->
 
   <section
-    class="absolute inset-0 translate-x-full sm:static sm:w-full sm:translate-x-0 duration-300 flex flex-col sm:border-l dark:border-white border-gray-300"
-    class:translate-x-0={showPreview}
+    class="absolute inset-0 translate-x-0 sm:static sm:w-full sm:translate-x-0 duration-300 flex flex-col sm:border-l dark:border-white border-gray-300"
+    class:translate-x-full={showPreview === false}
     class:sm:hidden={!showPreview}
   >
     <header
